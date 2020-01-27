@@ -1,0 +1,25 @@
+{
+  "name": "braddle/php-uk-2020",
+  "description": "git@github.com:braddle/php-uk-2020.git",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mark Bradley",
+      "email": "braddle@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Braddle\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Braddle\\": "test"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.5.2"
+  }
+}
